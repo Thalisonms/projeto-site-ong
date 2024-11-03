@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+h2 {
+    color: #f6c851;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h1 {
+    color: #f6c851;
+    margin-top: 15rem;
+    font-size: 50px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #1c2327;
+}
+
+.interface {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.secao1 {
+    padding: 15rem;
+    text-align: center;
+    background-image: url("./assets/cover.jpg"); 
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.secao1 p {
+    color: white;
+    font-size: 20px;
+}
+
+.secao2 {
+    background-color: #1c2327;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.secao2 ul {
+    padding: 1rem;
+}
+
+.secao2 .imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    max-width: 45%;
+}
+
+.secao2 .imagem img {
+    width: 100%; 
+    height: auto;
+}
+
+.secao2 .texto {
+    max-width: 50%;
+}
+
+.ultima_secao {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+footer {
+    padding: 1rem;
+    text-align: left;
+    color: #1c2327;
+    width: 100%;
+    margin-top: auto;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    border-style: solid;
+}
